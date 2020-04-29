@@ -1,0 +1,12 @@
+
+header {
+    color: #AFE6F8;
+}
+
+.strip {
+    width: 100%;
+}
+
+nav p {
+    text-transform: lowercase;
+}
