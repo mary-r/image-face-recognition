@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: #001B44;
+  color: #ffffff;
 }
 
 .center {
@@ -8,8 +8,40 @@
   justify-content: center;
 }
 
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
 button {
   cursor: pointer;
+}
+
+.form {
+  width: 40%;
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(212,212,212,0.3);
+  -moz-box-shadow: 3px 3px 10px 0px rgba(212,212,212,0.3);
+  box-shadow: 3px 3px 10px 0px rgba(212,212,212,0.3);
+  text-transform: lowercase;
+  font-size: 1em;
+  letter-spacing: .1em;
+}
+
+.inputField:hover {
+  border-color: #f84e7e;
+}
+
+.inputField:focus {
+  background-color: #f84e7e;
+}
+
+.formBtn:hover, .formBtn:focus {
+  color: #f84e7e;
+  border-color: #f84e7e;
 }
 
 *:focus {

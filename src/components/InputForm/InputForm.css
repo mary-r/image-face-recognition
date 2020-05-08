@@ -1,4 +1,16 @@
 .form {
     width: 40%;
-    background: rgba(203,60,97, 0.9);
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(212,212,212,0.3);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(212,212,212,0.3);
+    box-shadow: 3px 3px 10px 0px rgba(212,212,212,0.3);
+}
+
+.input {
+    background: rgba(149,208,229, 0.3);
+}
+
+.detect {
+    background-color: #f84e7e;
+    color: #1b1b5e;
+    font-weight: 800;
 }

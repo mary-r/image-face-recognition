@@ -1,12 +1,6 @@
-
-header {
-    color: #AFE6F8;
-}
-
-.strip {
-    width: 100%;
-}
-
 nav p {
     text-transform: lowercase;
+    font-size: 1em;
+    letter-spacing: .1em;
+    color: #ffffff;
 }
