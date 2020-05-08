@@ -9,7 +9,7 @@ const InputForm = ({ onInputChange, onButtonClick }) => {
             </p>
             <div className='center'>
                 <article className='form pa4 br3 ba b--black-10 mv4 w-100 w-50-m w-25-l shadow-5 center'>
-                    <input className='f4 pa2 w-70 center' type='text' onChange={onInputChange} />
+                    <input className='f6 pa2 w-70 center' type='text' onChange={onInputChange} />
                     <button className='detect f6 link w-30 grow ph3 pv2 mb2 dib' style={{textTransform: 'lowercase'}} onClick={onButtonClick}>Detect</button>
                 </article>
             </div>
