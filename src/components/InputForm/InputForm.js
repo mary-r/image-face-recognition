@@ -5,7 +5,7 @@ const InputForm = ({ onInputChange, onButtonClick }) => {
     return (
         <div>
             <p className='f4'>
-                {'This app will detect faces in your pictures. Give it a try.'}
+                {'This app detects faces in your pictures. Paste an image URL below to give it a try.'}
             </p>
             <div className='center'>
                 <article className='form pa4 br3 ba b--black-10 mv4 w-100 w-50-m w-25-l shadow-5 center'>
